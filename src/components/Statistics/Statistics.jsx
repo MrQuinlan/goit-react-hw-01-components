@@ -26,3 +26,12 @@ export default function Statistics({ title, stats }) {
         </section>
     );
 }
+
+Statistics.propTypes = {
+    title: propTypes.string,
+    stats: propTypes.shape({
+        id: propTypes.string.isRequired,
+        label: propTypes.string.isRequired,
+        percentage: propTypes.number.isRequired,
+    }).isRequired,
+};
