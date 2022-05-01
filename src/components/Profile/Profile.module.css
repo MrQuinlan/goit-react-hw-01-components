@@ -1,5 +1,5 @@
 .profile {
-    width: 250px;
+    width: 350px;
 
     font-size: 20px;
     font-weight: 700;
@@ -7,8 +7,8 @@
     border: 1px solid rgba(34, 60, 80, 0.2);
     border-radius: 10px;
 
+    background-color: #fff;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-
     padding-top: 30px;
 
     margin-bottom: 30px;

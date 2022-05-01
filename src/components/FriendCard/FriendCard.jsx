@@ -25,3 +25,9 @@ export default function FriendCard({ avatar, name, isOnline }) {
         </li>
     );
 }
+
+FriendCard.propTypes = {
+    avatar: propTypes.string.isRequired,
+    name: propTypes.string.isRequired,
+    isOnline: propTypes.bool.isRequired,
+};

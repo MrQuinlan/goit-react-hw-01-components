@@ -22,21 +22,6 @@ export default function FriendList({ friends }) {
     );
 }
 
-// {
-//     friends.map(el => {
-//         const { avatar, name, isOnline, id } = el;
-
-//         return (
-//             <li className="s.item" id={id}>
-//                 <span className="s.status">{isOnline}</span>
-//                 <img
-//                     className="s.avatar"
-//                     src={avatar}
-//                     alt="User avatar"
-//                     width="48"
-//                 />
-//                 <p className="s.name">{name}</p>
-//             </li>
-//         );
-//     });
-// }
+FriendList.propTypes = {
+    friends: propTypes.array.isRequired,
+};
